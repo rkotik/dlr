@@ -1,0 +1,19 @@
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  .nosotros__contenedor {
+    margin-top: 50px;
+
+    img {
+      width: 35%;
+      display: inline-block;
+    }
+
+    .nosotros__contenido {
+      display: inline-block;
+      width: 55%;
+      vertical-align: top;
+      margin-left: 50px;
+    }
+  }
+}

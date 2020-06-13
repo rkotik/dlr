@@ -1,0 +1,26 @@
+.servicios {
+  display: flex;
+  flex-direction: row;
+  background: lighten($color: #c03a2a, $amount: 20);
+  color: #ffffff;
+
+  h1.titulo {
+    color: #ffffff;
+  }
+
+  .servicios__contenedor {
+    margin-top: 50px;
+
+    img {
+      width: 35%;
+      display: inline-block;
+    }
+
+    .servicios__contenido {
+      display: inline-block;
+      width: 55%;
+      vertical-align: top;
+      margin-right: 50px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.contacto {
+  display: flex;
+  flex-direction: row;
+  background: var(--primario);
+  color: #ffffff;
+
+  h1.titulo {
+    color: #ffffff;
+  }
+
+  .contacto__contenedor {
+    margin-top: 50px;
+  }
+}

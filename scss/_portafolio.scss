@@ -1,0 +1,29 @@
+.portafolio {
+  display: flex;
+  flex-direction: row;
+
+  .portafolio__contenedor {
+    margin-top: 50px;
+
+    .portafolio__contenido {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+
+      .portafolio__cliente {
+        width: 250px;
+        height: 200px;
+        background: var(--secundario);
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
+}
