@@ -57,7 +57,7 @@
     margin: auto;
     .nosotros__contenedor {
       img {
-        width: 75%;
+        width: 90%;
         margin: auto;
         display: block;
       }
@@ -83,17 +83,22 @@
     margin: auto;
 
     .servicios__contenedor {
+      display: flex;
+      flex-direction: column;
+
       img {
-        width: 75%;
+        width: 90%;
         margin: auto;
         display: block;
         margin-bottom: 25px;
+        order: 0;
       }
 
       .servicios__contenido {
         margin: 0;
         width: 100%;
         text-align: justify;
+        order: 1;
 
         h3 {
           text-align: center;

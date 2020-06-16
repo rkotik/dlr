@@ -234,6 +234,9 @@ section.banner .banner__texto h2 {
 .servicios .servicios__contenedor img {
   width: 35%;
   display: inline-block;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .servicios .servicios__contenedor .servicios__contenido {
@@ -241,6 +244,9 @@ section.banner .banner__texto h2 {
   width: 55%;
   vertical-align: top;
   margin-right: 50px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .portafolio {
@@ -371,7 +377,7 @@ section.banner .banner__texto h2 {
     margin: auto;
   }
   section.nosotros .nosotros__contenedor img {
-    width: 75%;
+    width: 90%;
     margin: auto;
     display: block;
   }
@@ -398,16 +404,31 @@ section.banner .banner__texto h2 {
             align-items: center;
     margin: auto;
   }
+  section.servicios .servicios__contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   section.servicios .servicios__contenedor img {
-    width: 75%;
+    width: 90%;
     margin: auto;
     display: block;
     margin-bottom: 25px;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
   }
   section.servicios .servicios__contenedor .servicios__contenido {
     margin: 0;
     width: 100%;
     text-align: justify;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   section.servicios .servicios__contenedor .servicios__contenido h3 {
     text-align: center;
